@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+header {
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 50;
+}
+
+header nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #0070f3;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: #0051a3;
+}
+
+section {
+  padding: 100px 20px 50px 20px;
+}
+
+#hero {
+  background-color: #e0f2ff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #0070f3;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.project-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f3f3f3;
+  margin-top: 2rem;
+}
